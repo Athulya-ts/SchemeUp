@@ -1,23 +1,26 @@
-import "./App.css";
+import "./Mainpage.css";
+import { Link } from "react-router-dom";
 import image9Arrow from "./assets/image9Arrow.png";
-import './Merit-cum.css';
+import './Meritcum.css';
 
-const Merit = () => {
+const Meritcum = () => {
   return (
-    <div className="merit-cum">
-      <img className="image-9" src={image9Arrow} alt="9"/>
+    <div className="Meritcum">
+      <Link to="/Natschemes">
+      <img className="image-9Arrow" src={image9Arrow} alt="9"/>
+      </Link>
       <center><h3>
         SCHEME OF MERIT CUM MEANS BASED SCHOLARSHIP
-      </h3></center>
+      </h3></center><br></br>
       <div className="rectangle-33">
-        <span className="the-objective-of-the">
+        <p className="the-objective-of-the">
           The objective of the Scheme is to provide financial assistance to the
           poor and meritorious students belonging to minority communities to
           enable them to pursue professional and technical courses.
-        </span>
+        </p>
       </div>
         <div className="rectangle-34" >
-        <span className="eligibility-to-be-e">
+        <p className="eligibility-to-be-e">
           <p><b><u>Eligibility</u></b></p><p> To be eligible, an applicant must - </p><p>1. belong to
           Minority communities (Muslims, Sikhs, Christians, Buddhists, Jain, and
           Parsis&#x2F;Zoroastrians) </p><p>2. be pursuing a technical or professional
@@ -31,12 +34,13 @@ const Merit = () => {
           copy of Aadhar Enrollment&#x2F;Aadhar Card </p><p>7. Income certificate
           issued by designated state&#x2F;UT authority</p><p> 8. Proof of bank account
           in the name of the student or joint account with mother&#x2F;father</p>
-        </span>
+        </p>
       </div>
-      <button className="rectangle-28">
-        <span className="apply">Apply</span>
-      </button>
+      <div className="rectangle-28">
+        <p className="apply"><a href="https://scholarships.gov.in/">Apply</a></p>
+      </div>
     </div>
   );
 };
-export default Merit;
+export default Meritcum;
+
