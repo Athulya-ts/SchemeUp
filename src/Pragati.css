@@ -5,29 +5,27 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 25px;
-    font-family: Poppins;
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-family: Times New Roman;
+    font-size: 25px;
     line-height: 30px;
     word-spacing: 2px;
     display: flex;
   }
   
-  .image-9 {
+  .image-9Arrow {
     width: 77px;
     height: 77px;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    align-self: flex-start;
-  }
-  
-  .pragati-scholarship {
+    position: relative;
+    right: 650px;
+    align-items: flex-start;
+}
+h4 {
     text-align: center;
-    margin-bottom: 5px;
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 72px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
   }
   
   .flex-container {
@@ -53,14 +51,15 @@
   .pragati-is-a-mhrd-sc {
     margin-top: 9px;
     margin-left: 9px;
-    padding-left: 9px;
     font-size:25px;
+  }
+  .pragati-is-a-mhrd-sc,.reservation-15-for{
+    padding-left: 15px;
   }
 
 .reservation-15-for{
   margin-top: 9px;
   margin-left: 9px;
-  padding-left:50px;
     font-size:25px;
 }
   .image-52 {
@@ -100,5 +99,6 @@
   
   .apply {
     margin-top: 1px;
+    padding-left: 25px;
   }
   
