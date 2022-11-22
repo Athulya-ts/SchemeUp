@@ -4,76 +4,91 @@ import image21 from "./assets/image21.png";
 import image9Arrow from "./assets/image9Arrow.png";
 import image23 from "./assets/image23.png";
 import image27 from "./assets/image27.png";
-import image33 from "./assets/image33.png";
 import image13 from "./assets/image13.png";
 import image11 from "./assets/image11.png";
 import image12 from "./assets/image12.png";
 import image26 from "./assets/image26.png";
 const Natschemes = () => {
-  <Link to='/Mainpage'>
   return (
+    <>
     <div className="nat-schemes">
-      <div className="flex-container">
+        <Link to="/Home">
         <img className="image-9-arrow" src={image9Arrow} alt="9" />
-        <img className="image-33" src={image33} alt="33" />
-      </div>
+        </Link>
       <div className="rectangle-19">
-        <a className="pragati-scholarship" href="/">
+      <Link to="/Pragati">
+        <p className="pragati-scholarship" >
           Pragati Scholarship Scheme for Girl Students (Technical Degree) All
           India Council for Technical Education
-        </a>
+        </p>
+        </Link>
         <img className="image-11" src={image11} alt="11" />
       </div>
       <div className="rectangle-19">
-        <a className="merit-cum-means-scho" href="/">
+      <Link to="/Meritcum">
+        <p className="merit-cum-means-scho">
           Merit Cum Means Scholarship for Professional and Technical Courses CS
           Mininstry of Minority Affairs
-        </a>
+        </p>
+        </Link>
         <img className="image-12" src={image12} alt="12"/>
       </div>
       <div className="rectangle-19">
-        <a className="scholarships-for-top" href="/">
+      <Link to="/Disability">
+        <p className="scholarships-for-top">
           Scholarships for Top Class Education for students with disabilities
           Department of Empowerment of Persons with disabilities
-        </a>
+        </p>
+        </Link>
         <img className="image-21" src={image21} alt="21"/>
       </div>
         <div className="rectangle-19">
-          <a className="prime-ministers-scho" href="/">
+        <Link to="/RPF">
+          <p className="prime-ministers-scho">
             Prime Minister's Scholarship Scheme for RPF&#x2F;RPSF Ministry of
             Railways
-          </a>
+          </p>
+          </Link>
           <img className="image-13" src={image13} alt="13"/>
         </div>
       <div className="rectangle-19">
-        <a className="central-sector-schem" href="/">
+      <Link to="/CSSS">
+        <p className="central-sector-schem">
           Central Sector Scheme of Scholarships for College and University
           Students Department of Higher Studies
-        </a>
-        <img className="image-28" src={image11} alt="11" />
+        </p>
+        </Link>
+        <img className="image-11" src={image11} alt="11" />
       </div>
       <div className="rectangle-19">
-        <a className="national-scheme-on-w" href="/">
+      <Link to="/Fishermen">
+        <p className="national-scheme-on-w">
           National Scheme on Welfare of Fisherman Ministry of Agriculture and
           Farmers Welfare(MoA)
-        </a>
+        </p>
+        </Link>
         <img className="image-23" src={image23} alt="23" />
       </div>
       <div className="rectangle-19">
-        <a className="national-career-serv" href="/">
+      <Link to="/NCS">
+        <p className="national-career-serv">
           National Career Service(NCS) Ministry of Labour and Employement
-        </a>
+        </p>
+        </Link>
         <img className="image-27" src={image27} alt="27" />
       </div>
       <div className="rectangle-19">
-        <a className="pm-jeevan-jyoti-bima" href="/">
+      <Link to="/PMJJBY">
+        <p className="pm-jeevan-jyoti-bima">
           PM Jeevan Jyoti Bima Yojana(PMJJBY,Life light Insurance Scheme)
           Ministry of Finance
-        </a>
+        </p>
+        </Link>
         <img className="image-26" src={image26} alt="26" />
       </div>
     </div>
+    </>
   );
-  </Link>
 };
 export default Natschemes;
+
