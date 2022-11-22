@@ -8,21 +8,21 @@
   justify-content: space-evenly;
   align-items: center;
   font-family: Poppins;
-  font-size: 2.25rem;
-  font-weight: 400;
-  line-height: 54px;
+  font-size: 25px;
+  line-height: 30px;
   display: flex;
 }
-
-.flex-container {
-  width: 95%;
-  flex-direction: row;
-  flex-basis: 3%;
-  justify-content: space-between;
-  align-items: stretch;
-  display: flex;
+p{
+  color:black;
+  text-decoration: none;
 }
-
+.image-9-arrow{
+    width: 77px;
+    height: 77px;
+    position: relative;
+    right: 650px;
+    align-items: flex-start;
+}
 .rectangle-19 {
   width: 85%;
   background-color: #fafafa;
@@ -31,145 +31,43 @@
   flex-basis: 9%;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 9px;
-  margin-left: 22px;
-  padding-bottom: 22px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   padding-right: 15px;
   display: flex;
 }
-.pragati-scholarship {
+.pragati-scholarship,.merit-cum-means-scho,.scholarships-for-top,.prime-ministers-scho,.central-sector-schem,.national-scheme-on-w,.national-career-serv,.pm-jeevan-jyoti-bima {
   margin-top: 9px;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 25px;
   margin-left: 9px;
+  align-items: flex-start;
 }
 
-.merit-cum-means-scho {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.scholarships-for-top {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.prime-ministers-scho {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.central-sector-schem {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.national-scheme-on-w {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.national-career-serv {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.pm-jeevan-jyoti-bima {
-  margin-top: 9px;
-  margin-left: 9px;
-}
-
-.image-26 {
+.image-11,.image-12,.image-13,.image-21,.image-26,.image-27,.image-23 {
   width: 79px;
   height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
+  align-items: flex-end;
 }
-.image-9-arrow {
-  width: 77px;
-  height: 77px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  padding-left: 1px;
-}
+ .image-13,.image-27{
+  position: relative;
+  left:120px;
+ }
 
-.image-33 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 10px;
-}
-
-.image-11 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
-}
-
-.image-12 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
-}
-
-.image-21 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
-}
-
-
-.image-13 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-
-}
-
-.image-27 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-
-}
-.image-23 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
-}
-.image-28 {
-  width: 79px;
-  height: 79px;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  align-self: flex-end;
-  margin-right: 20px;
-}
+ .image-12,.image-27{
+  position: relative;
+  left:20px;
+ }
+ .image-23{
+  position: relative;
+  left:35px;
+ }
+.image-26{
+  position: relative;
+  left:70px;
+ }
+ .image-27{
+  position: relative;
+  left:130px;
+ }
