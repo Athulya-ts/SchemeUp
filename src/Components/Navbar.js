@@ -30,16 +30,15 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <p className='navbar-logo' onClick={closeMobileMenu}>
           SCHEMEUP
-          <i class='fab fa-firstdraft' />
-        </Link>
+        </p>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
               HOME
             </Link>
           </li>
@@ -92,3 +91,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
