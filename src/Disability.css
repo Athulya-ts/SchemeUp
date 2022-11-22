@@ -16,11 +16,11 @@
   .image-9Arrow {
     width: 77px;
     height: 77px;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    align-self: flex-start;
-  }
+    position: relative;
+    right: 650px;
+    align-items: flex-start;
+}
+  
   
   .rectangle-36 {
     width: 90%;
@@ -36,6 +36,7 @@
   .the-department-of-em,  .the-department-of-em-1 ,.the-department-of-em-2{
     padding-left: 15px;
     font-size:25px;
+    padding-top:5px;
   }
   
   .rectangle-37 {
@@ -81,5 +82,6 @@
   .apply {
     margin-top: 1px;
     margin-bottom: 1px;
+    padding-right: 25px;
   }
   
