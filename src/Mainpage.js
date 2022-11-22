@@ -1,25 +1,41 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import './Mainpage.css';
-import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
-import Home from './Components/Pages/Home';
-import Camps from './Components/Pages/Camps';
-import EditDetails from './Components/Pages/EditDetails';
+import { BrowserRouter, Route,Routes} from 'react-router-dom';
+import RPF from './RPF';
+import Pragati from './Pragati';
+import MeritCum from './Meritcum';
 import Natschemes from './Natschemes';
-import Logout from './Components/Pages/Logout';
+import Fishermen from './Fishermen';
+import Disability from './Disability';
+import NCS from './NCS';
+import PMJJBY from './PMJJBY';
+import CSSS from './CSSS';
+import Logout from './Components/Logout';
+import EditDetails from './EditDetails';
+import Home from './Components/Home';
 
 function Mainpage() {
   return (
-    <Router>
-      <Navbar />
+    <BrowserRouter >
+    <Navbar/>
         <Routes>
-        <Route path='/Natschemes' element={<Natschemes/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/Home' element={<Home/>} />
-        <Route path='/Camps' element={<Camps/>} />
-        <Route path='/EditDetails' element={<EditDetails/>} />
+        <Route path='/Natschemes' element={<Natschemes/>} />
+        <Route path='/Pragati' element={<Pragati/>}/>
+        <Route path='/MeritCum' element={<MeritCum/>}/>
+        <Route path='/RPF' element={<RPF/>}/>
+        <Route path='/Fishermen' element={<Fishermen/>}/>
+        <Route path='/RPF' element={<RPF/>}/>
+        <Route path='/CSSS' element={<CSSS/>}/>
+        <Route path='/Disability' element={<Disability/>}/>
+        <Route path='/EditDetails' element={<EditDetails/>}/>
+        <Route path='/NCS' element={<NCS/>}/>
+        <Route path='/PMJJBY' element={<PMJJBY/>}/>
         <Route path='/Logout' element={<Logout/>} />
         </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 export default Mainpage;
