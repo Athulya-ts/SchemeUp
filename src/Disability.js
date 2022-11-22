@@ -1,13 +1,15 @@
 import "./Disability.css";
+import { Link } from "react-router-dom";
 import image9Arrow from "./assets/image9Arrow.png";
 const Disability = () => {
   return (
-    <>
     <div className="disability">
+      <Link to="/Natschemes">
       <img className="image-9Arrow" src={image9Arrow} alt="9" />
+      </Link>
       <center><h5>
       SCHOLARSHIPS FOR TOP CLASS EDUCATION FOR STUDENTS WITH DISABILITIES
-      </h5></center>
+      </h5></center><br></br>
         <div className="rectangle-36" >
         <p className="the-department-of-em">
           The Department of Empowerment of Persons with Disabilities, Government
@@ -34,10 +36,10 @@ const Disability = () => {
         </p>
         </div>
       <button className="rectangle-28">
-        <p className="apply">Apply</p>
+        <p className="apply"><a href="https://scholarships.gov.in/">Apply</a></p>
       </button>
       </div>
-      </>
   );
 };
 export default Disability;
+
